@@ -259,13 +259,13 @@ h1 {
   opacity: 1;
 }
 
-.iron-fist .hero-pictures {
-  background-image: url(source-images/iron_fist_comics.jpeg);
+.lion-o .hero-pictures {
+  background-image: url(source-images/snarf.jpg);
   margin: 0;
   box-shadow: none;
 }
 
-.iron-fist .hero-info {
+.lion-o .hero-info {
   margin: 0;
   padding: 5%;
   box-shadow: none;
