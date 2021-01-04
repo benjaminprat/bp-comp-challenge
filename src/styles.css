@@ -1,6 +1,4 @@
-@media screen and (max-width:700px){
-
-
+@media screen and (max-width:700px) {
   .admin p {
     text-align: center;
     flex-direction: row;
@@ -15,9 +13,6 @@
     flex-direction: column;
     justify-content: space-around;
   }
-
-
-
 
   .nav-icon {
     display: hidden;
@@ -42,20 +37,21 @@
   .learn {
     display: flex;
     flex-wrap: wrap;
-    flex:1;
+    flex: 1;
     font-size: auto;
   }
+
   .read {
     display: flex;
     flex-wrap: wrap;
-    flex:1;
+    flex: 1;
     font-size: auto;
   }
 
   .watch {
     display: flex;
     flex-wrap: wrap;
-    flex:1;
+    flex: 1;
     font-size: auto;
   }
 
@@ -88,22 +84,22 @@ body {
   padding: 0;
   font-size: 20px;
   outline: 1px gray;
-  display:inline-block;
+  display: inline-block;
   flex-grow: 1;
 }
 
 .navbar .material-icons {
   font-size: 20px;
   text-align: center;
-  color:red;
+  color: red;
 }
 
 .nav-icon img {
-    height: 40px;
-    width: auto;
-    align-self: flex-end;
-    padding: 5px;
-    border-radius: 10px;
+  height: 40px;
+  width: auto;
+  align-self: flex-end;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .admin {
@@ -117,6 +113,14 @@ body {
   flex-grow: 1;
 }
 
+h1 {
+  text-align: center;
+}
+
+.character-pictures {
+  opacity: 1;
+}
+
 .admin div {
   display: inline-block;
   text-align: right;
@@ -127,6 +131,7 @@ body {
   width: 100%;
   padding: 2px;
 }
+
 .admin img {
   height: 30px;
   width: auto;
@@ -141,6 +146,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .read {
   flex: 1;
 }
@@ -170,10 +176,8 @@ body {
 
 .nav-icon {
   text-align: right;
-}
-
-border: 10px black;
-}
+  border: 10px black;
+  }
 
 .nav-icon img {
   height: 50px;
@@ -245,22 +249,21 @@ border: 10px black;
 }
 
 .iron-fist .character-info {
-margin: 0;
-padding: 5%;
-box-shadow: none;
+  margin: 0;
+  padding: 5%;
+  box-shadow: none;
 }
 
 .lion-o .character-profiles {
-  background-image: url(assets/cheetara.jpg)
-  box-shadow: none;
+  background-image: url(assets/cheetara.jpg) box-shadow: none;
   margin: 0;
   padding: 5%;
 }
 
 .lion-o .character-info {
-margin: 0;
-padding: 5%;
-box-shadow: none;
+  margin: 0;
+  padding: 5%;
+  box-shadow: none;
 }
 
 .she-hulk .character-pictures {
@@ -286,7 +289,6 @@ box-shadow: none;
   padding: 5%;
   box-shadow: none;
 }
-
 
 .colleen-wing .character-pictures {
   background-image: url(source-images/colleen_wing.jpg);
@@ -334,4 +336,19 @@ box-shadow: none;
   margin: 0;
   padding: 5%;
   box-shadow: none;
+}
+
+.active {
+  font-size: 12px;
+}
+.user-input:hover {
+  box-shadow: 0px 0px 5px DarkRed;
+}
+
+.character-pictures {
+  opacity: 0.6;
+}
+
+.character-pictures:hover {
+  opacity: 1;
 }
