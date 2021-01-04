@@ -110,8 +110,8 @@ body {
 }
 
 .user-input {
-  margin: 1%;
-  width: auto;
+  margin: 100%;
+  width: 50px;
   flex-grow: 1;
   font-size: 15px;
   background-color: LightGray;
