@@ -5,6 +5,7 @@ body {
 .navbar {
   color: black;
   display: flex;
+  background-color: gray;
 }
 
 .navbar div {
@@ -13,34 +14,36 @@ body {
 }
 
 .admin-username {
- color: black;
- display: flex;
- padding: 10px;
- border: 1px black solid;
- justify-content: flex-end;
-}
-  .shares {
-    flex: 1;
-  }
-
-  .contact {
-  flex:1;
+  background-color: gray;
+  color: black;
+  display: flex;
+  padding: 10px;
+  border: 1px black solid;
+  justify-content: flex-end;
 }
 
-  .videos {
-    flex:1;
-  }
+.learn {
+  flex: 1;
+}
 
-  .nav-icon {
-    flex:2;
-  }
+.read {
+  flex: 1;
+}
 
-  .navbar i {
-    text-align: center;
-    display: inline-block;
-    font-size: 15px;
-    padding-right: 7px;
-  }
+.watch {
+  flex: 1;
+}
+
+.nav-icon {
+  flex: 2;
+}
+
+.navbar i {
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  padding-right: 7px;
+}
 
 .navbar div.hover {
   background-color: #ddd;
@@ -48,12 +51,12 @@ body {
 }
 
 .navbar div.active {
-background-color: #4CAF50;
-color: white;
+  background-color: #4CAF50;
+  color: white;
 }
 
-  #nav-icon {
-    float: right;
-    text-align: center;
-    font-size: 30px;
-  }
+#nav-icon {
+  float: right;
+  text-align: center;
+  font-size: 30px;
+}
