@@ -13,7 +13,15 @@ body {
   padding: 10px;
 }
 
-.admin-username {
+.nav-icon img {
+    height: 40px;
+    width: auto;
+    align-self: flex-end;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.admin {
   background-color: gray;
   color: black;
   display: flex;
