@@ -1,5 +1,73 @@
-@media(min-width:700px){
+@media screen and (max-width:700px){
 
+
+  .admin p {
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+
+
+
+  .nav-icon {
+    display: hidden;
+    display: img ()
+  }
+
+  .nav-icon img {
+    display: none;
+  }
+
+  .nav-icon div {
+    display: hidden;
+  }
+
+  .navbar .material-icons {
+    flex-grow: 1;
+    color: red;
+    text-shadow: 0px 0px 7px black;
+    font-size: 100%;
+  }
+
+  .learn {
+    display: flex;
+    flex-wrap: wrap;
+    flex:1;
+    font-size: auto;
+  }
+  .read {
+    display: flex;
+    flex-wrap: wrap;
+    flex:1;
+    font-size: auto;
+  }
+
+  .watch {
+    display: flex;
+    flex-wrap: wrap;
+    flex:1;
+    font-size: auto;
+  }
+
+  .hero-profiles {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .hero-profiles div {
+    margin-bottom: 10px;
+  }
 }
 
 body {
@@ -11,13 +79,17 @@ body {
   display: flex;
   text-align: center;
   color: white;
+  width: 100%;
+  flex-grow: 1;
 }
 
 .navbar div {
   border: 1px black solid;
   padding: 0;
   font-size: 20px;
+  outline: 1px gray;
   display:inline-block;
+  flex-grow: 1;
 }
 
 .navbar .material-icons {
@@ -37,9 +109,12 @@ body {
 .admin {
   background-color: gray;
   color: black;
-  padding: 10px;
+  padding-bottom: 10px;
+  padding-top: 5px;
   font-size: 20px;
   text-align: right;
+  width: 100%;
+  flex-grow: 1;
 }
 
 .admin div {
@@ -48,6 +123,9 @@ body {
   margin-left: auto;
   flex-direction: row;
   align-items: center;
+  flex-grow: 1;
+  width: 100%;
+  padding: 2px;
 }
 .admin img {
   height: 30px;
@@ -134,9 +212,12 @@ border: 10px black;
 
 .character-pictures .material-icons {
   color: white;
+  flex-grow: 1;
+  flex-shrink: 1;
   text-shadow: 0px 0px 10px black;
   font-size: 50px;
   flex-grow: 1;
+  font-size: 50px;
 }
 
 .views {
@@ -150,6 +231,7 @@ border: 10px black;
   margin: 100%;
   width: 50px;
   flex-grow: 1;
+  flex-shrink: 1;
   font-size: 15px;
   background-color: LightGray;
   color: DarkGray;
