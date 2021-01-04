@@ -1,5 +1,69 @@
-@media(min-width:700px){
+@media screen and (max-width:700px) {
+  .admin p {
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    display: inline-block;
+  }
 
+  .navbar {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .nav-icon {
+    display: hidden;
+    display: img ()
+  }
+
+  .nav-icon img {
+    display: none;
+  }
+
+  .nav-icon div {
+    display: hidden;
+  }
+
+  .navbar .material-icons {
+    flex-grow: 1;
+    color: red;
+    text-shadow: 0px 0px 7px black;
+    font-size: 100%;
+  }
+
+  .learn {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    font-size: auto;
+  }
+
+  .read {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    font-size: auto;
+  }
+
+  .watch {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    font-size: auto;
+  }
+
+  .hero-profiles {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .hero-profiles div {
+    margin-bottom: 10px;
+  }
 }
 
 body {
@@ -8,39 +72,50 @@ body {
 }
 
 .navbar {
-  display: flex;
-  text-align: center;
-  color: white;
+display: flex;
+text-align: center;
+color: white;
+width: 100%;
+flex-grow: 1;
+border-bottom: 3px black solid;
+align-self: flex-end;
+background-color: LightSlateGrey;
 }
 
 .navbar div {
-  border: 1px black solid;
-  padding: 0;
-  font-size: 20px;
-  display:inline-block;
-}
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    display: inline-block;
+    align-self: flex-end;
+  }
 
-.navbar .material-icons {
-  font-size: 20px;
-  text-align: center;
-  color:red;
-}
 
 .nav-icon img {
-    height: 40px;
-    width: auto;
-    align-self: flex-end;
-    padding: 5px;
-    border-radius: 10px;
+  height: 40px;
+  width: auto;
+  align-self: flex-end;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .admin {
   background-color: gray;
   color: black;
-  padding: 10px;
+  padding-bottom: 3px;
+  padding-top: 3px;
   font-size: 20px;
   text-align: right;
+  width: 100%;
+  flex-grow: 1;
 }
+
+h1 {
+  text-align: center;
+}
+
 
 .admin div {
   display: inline-block;
@@ -48,11 +123,19 @@ body {
   margin-left: auto;
   flex-direction: row;
   align-items: center;
+  flex-grow: 1;
+  width: 100%;
+  padding: 2px;
 }
+
 .admin img {
   height: 30px;
   width: auto;
   padding: 3px;
+}
+
+.admin p:hover {
+  text-shadow: 0px 0px 5px DarkRed;
 }
 
 .learn {
@@ -63,6 +146,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .read {
   flex: 1;
 }
@@ -92,17 +176,19 @@ body {
 
 .nav-icon {
   text-align: right;
-}
-
-border: 10px black;
-}
+  border: 10px black;
+  }
 
 .nav-icon img {
-  height: 50px;
+  height: 40px;
   width: auto;
-  outline: 10px solid black;
-  outline-offset: -20px;
-  padding: 20px;
+  align-self: flex-end;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.navbar p:hover {
+  transform: scale(1.5,1.5)
 }
 
 .character-profiles {
@@ -134,9 +220,12 @@ border: 10px black;
 
 .character-pictures .material-icons {
   color: white;
+  flex-grow: 1;
+  flex-shrink: 1;
   text-shadow: 0px 0px 10px black;
   font-size: 50px;
   flex-grow: 1;
+  font-size: 50px;
 }
 
 .views {
@@ -150,6 +239,7 @@ border: 10px black;
   margin: 100%;
   width: 50px;
   flex-grow: 1;
+  flex-shrink: 1;
   font-size: 15px;
   background-color: LightGray;
   color: DarkGray;
@@ -163,22 +253,21 @@ border: 10px black;
 }
 
 .iron-fist .character-info {
-margin: 0;
-padding: 5%;
-box-shadow: none;
+  margin: 0;
+  padding: 5%;
+  box-shadow: none;
 }
 
 .lion-o .character-profiles {
-  background-image: url(assets/cheetara.jpg)
-  box-shadow: none;
+  background-image: url(assets/cheetara.jpg) box-shadow: none;
   margin: 0;
   padding: 5%;
 }
 
 .lion-o .character-info {
-margin: 0;
-padding: 5%;
-box-shadow: none;
+  margin: 0;
+  padding: 5%;
+  box-shadow: none;
 }
 
 .she-hulk .character-pictures {
@@ -204,7 +293,6 @@ box-shadow: none;
   padding: 5%;
   box-shadow: none;
 }
-
 
 .colleen-wing .character-pictures {
   background-image: url(source-images/colleen_wing.jpg);
@@ -252,4 +340,19 @@ box-shadow: none;
   margin: 0;
   padding: 5%;
   box-shadow: none;
+}
+
+.active {
+  font-size: 12px;
+}
+.user-input:hover {
+  box-shadow: 0px 0px 5px DarkRed;
+}
+
+.character-pictures {
+  opacity: 0.6;
+}
+
+.character-pictures:hover {
+  opacity: 1;
 }
