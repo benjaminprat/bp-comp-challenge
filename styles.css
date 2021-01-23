@@ -262,7 +262,7 @@ h1 {
 }
 
 .lion-o .hero-pictures {
-  background-image: url(../assets/lion-o.jpg);
+  background-image: url(lion-o.jpg);
   margin: 0;
   box-shadow: none;
 }
@@ -274,7 +274,7 @@ h1 {
 }
 
 .cheetara .hero-pictures {
-  background-image: url(../assets/cheetara.jpg);
+  background-image: url(cheetara.jpg);
   box-shadow: none;
   margin: 0;
 }
@@ -286,7 +286,7 @@ h1 {
 }
 
 .panthro .hero-pictures {
-  background-image: url(../assets/panthro.jpg);
+  background-image: url(panthro.jpg);
   box-shadow: none;
   margin: 0;
 }
@@ -298,7 +298,7 @@ h1 {
 }
 
 .tygra .hero-pictures {
-  background-image: url(../assets/tygra.jpeg);
+  background-image: url(tygra.jpeg);
   box-shadow: none;
   margin: 0;
 }
@@ -310,7 +310,7 @@ h1 {
 }
 
 .snarf .hero-pictures {
-  background-image: url(../assets/snarf.jpg);
+  background-image: url(snarf.jpg);
   margin: 0;
   box-shadow: none;
 }
@@ -322,7 +322,7 @@ h1 {
 }
 
 .slithe .hero-pictures {
-  background-image: url(../assets/slithe-2.jpg);
+  background-image: url(slithe-2.jpg);
   margin: 0;
   box-shadow: none;
 }
@@ -334,7 +334,7 @@ h1 {
 }
 
 .jackalman .hero-pictures {
-  background-image: url(../assets/jackalman.jpg);
+  background-image: url(jackalman.jpg);
   margin: 0;
   box-shadow: none;
 }
@@ -346,7 +346,7 @@ h1 {
 }
 
 .mumm-ra .hero-pictures {
-  background-image: url(../assets/mumm-ra.jpg);
+  background-image: url(mumm-ra.jpg);
   margin: 0;
   box-shadow: none;
 }
