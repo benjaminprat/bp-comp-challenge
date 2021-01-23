@@ -66,6 +66,7 @@
 
   h1 {
     text-align: center;
+    color: yellow;
   }
 
   .hero-profiles {
@@ -80,7 +81,7 @@
 }
 
 body {
-  background-color: Brown;
+  background-color: black;
   font-family: "Arial";
 }
 
@@ -92,7 +93,7 @@ width: 100%;
 flex-grow: 1;
 border-bottom: 3px black solid;
 align-self: flex-end;
-background-color: LightSlateGrey;
+background-color: #C12146;
 }
 
 .navbar div {
@@ -107,12 +108,12 @@ background-color: LightSlateGrey;
 .navbar .material-icons {
   font-size: 30px;
   text-align: center;
-  color: Maroon;
+  color: #C12146;
 }
 
 .admin {
-  background-color: LightSlateGrey;
-  color: black;
+  background-color: #C12146;
+  color: w;
   padding-bottom: 3px;
   padding-top: 3px;
   font-size: 20px;
@@ -185,6 +186,7 @@ background-color: LightSlateGrey;
 h1 {
   padding-left: 2%;
   text-shadow: 0px 0px 20px LightSlateGrey;
+  color: #FFFFFF;
 }
 
 .hero-profiles {
@@ -260,7 +262,7 @@ h1 {
 }
 
 .lion-o .hero-pictures {
-  background-image: url(source-images/cheetara.jpg);
+  background-image: url(../assets/lion-o.jpg);
   margin: 0;
   box-shadow: none;
 }
@@ -271,85 +273,85 @@ h1 {
   box-shadow: none;
 }
 
-.luke-cage .hero-pictures {
-  background-image: url(source-images/slithe.jpg);
+.cheetara .hero-pictures {
+  background-image: url(../assets/cheetara.jpg);
   box-shadow: none;
   margin: 0;
 }
 
-.luke-cage .hero-info {
-  margin: 0;
-  padding: 5%;
-  box-shadow: none;
-}
-
-.she-hulk .hero-pictures {
-  background-image: url(source-images/she-hulk.jpg);
-  box-shadow: none;
-  margin: 0;
-}
-
-.she-hulk .hero-info {
+.cheetara .hero-info {
   margin: 0;
   padding: 5%;
   box-shadow: none;
 }
 
-.silver-sable .hero-pictures {
-  background-image: url(source-images/silver-sable.jpg);
+.panthro .hero-pictures {
+  background-image: url(../assets/panthro.jpg);
   box-shadow: none;
   margin: 0;
 }
 
-.silver-sable .hero-info {
-  margin: 0;
-  padding: 5%;
-  box-shadow: none;
-}
-
-.colleen-wing .hero-pictures {
-  background-image: url(source-images/colleen_wing.jpg);
-  margin: 0;
-  box-shadow: none;
-}
-
-.colleen-wing .hero-info {
+.panthro .hero-info {
   margin: 0;
   padding: 5%;
   box-shadow: none;
 }
 
-.misty-knight .hero-pictures {
-  background-image: url(source-images/misty_knight.jpg);
-  margin: 0;
+.tygra .hero-pictures {
+  background-image: url(../assets/tygra.jpeg);
   box-shadow: none;
+  margin: 0;
 }
 
-.misty-knight .hero-info {
-  margin: 0;
-  padding: 5%;
-  box-shadow: none;
-}
-
-.moon-knight .hero-pictures {
-  background-image: url(source-images/moon_knight.jpeg);
-  margin: 0;
-  box-shadow: none;
-}
-
-.moon-knight .hero-info {
+.tygra .hero-info {
   margin: 0;
   padding: 5%;
   box-shadow: none;
 }
 
-.punisher .hero-pictures {
-  background-image: url(source-images/the_punisher.jpg);
+.snarf .hero-pictures {
+  background-image: url(../assets/snarf.jpg);
   margin: 0;
   box-shadow: none;
 }
 
-.punisher .hero-info {
+.snarf .hero-info {
+  margin: 0;
+  padding: 5%;
+  box-shadow: none;
+}
+
+.slithe .hero-pictures {
+  background-image: url(../assets/slithe-2.jpg);
+  margin: 0;
+  box-shadow: none;
+}
+
+.slithe .hero-info {
+  margin: 0;
+  padding: 5%;
+  box-shadow: none;
+}
+
+.jackalman .hero-pictures {
+  background-image: url(../assets/jackalman.jpg);
+  margin: 0;
+  box-shadow: none;
+}
+
+.jackalman .hero-info {
+  margin: 0;
+  padding: 5%;
+  box-shadow: none;
+}
+
+.mumm-ra .hero-pictures {
+  background-image: url(../assets/mumm-ra.jpg);
+  margin: 0;
+  box-shadow: none;
+}
+
+.mumm-ra .hero-info {
   margin: 0;
   padding: 5%;
   box-shadow: none;
